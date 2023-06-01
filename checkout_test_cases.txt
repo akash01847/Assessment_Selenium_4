@@ -1,0 +1,192 @@
+Tester Name: Akash Singh
+------------
+
+Test Scenario: Manual Test Cases for Checkout Flow at https://www.demoblaze.com/
+--------------
+
+Test Data: UserId: Akash1874, Password: 123456789
+----------
+
+Test Case 1: Navigate to website login and perform successful checkout.
+-----------
+
+	Test Case Description: User successfully completes the checkout process and places an order.
+	----------------------
+
+	Test Steps:
+	-----------
+		1. Naviagte to website https://www.demoblaze.com/ 
+		2. Navigate to product description page.
+		3. Click Add to cart button to add the product in shopping cart.
+		4. Click ok on the popup.
+		5. Go to the shopping cart.
+		6. Click "Place Order" button.
+		7. Enter the shipping information.
+		8. Enter your payment information.
+		9. Click on Purchase button.
+		10. Click on "OK" Button on the placed order popup to close it.
+		
+	Expected Result: The order should be successfully placed, and a confirmation message will be displayed. After clicking the "OK" button user should be redirected to homepage.
+	----------------
+	
+	Actual Result: The order is successfully placed, and a confirmation message is displayed. After clicking the "OK" button user is redirected to homepage.
+	--------------
+	
+	Pass / Fail: Pass
+	------------
+	
+Test Case 2: Empty Shopping Cart.
+------------
+
+	Test Case Description:  User tries to checkout with an empty shopping cart.
+	----------------------
+	
+	Test Steps:
+	-----------
+		1. Login to the e-commerce application with valid credentials.
+		2. Navigate to the shopping cart.
+		3. Verify that the shopping cart is empty.
+		4. Click the "Place Order" Button.
+
+	
+	Expected Result: An error message should be displayed, indicating that the shopping cart is empty. The user is unable to proceed with the checkout.
+	----------------	
+	
+	Actual Result: The order is successfully placed, and a confirmation message is displayed. After clicking the "OK" button user is redirected to homepage.
+	--------------
+	
+	Pass / Fail: Fail
+	------------
+	
+Test Case 3: Valid Shipping Address.
+------------
+
+	Test Case Description:  User enters an valid shipping address during checkout.
+	----------------------
+	
+	Test Steps:
+	-----------
+		1. Add a product in shopping cart.
+		2. Click "OK" on the popup.
+		3. Go to the shopping cart.
+		4. Click "Place Order" button.
+		5. Enter valid shipping address.
+		6. Enter your payment information.
+		7. Click on "Purchase" button.
+		8. Click on "OK" Button on the placed order popup to close it.
+
+
+	Expected Result: The order should be successfully placed, and a confirmation message will be displayed. After clicking the "OK" button user should be redirected to homepage.
+	----------------
+	
+	Actual Result: The order is successfully placed, and a confirmation message is displayed. After clicking the "OK" button user is redirected to homepage.
+	--------------
+	
+	Pass / Fail: Pass
+	------------
+	
+Test Case 4: Invalid Shipping Address.
+------------
+
+	Test Case Description:  User enters an invalid shipping address during checkout.
+	----------------------
+	
+	Test Steps:
+	-----------
+		1. Add a product in shopping cart.
+		2. Click "OK" on the popup.
+		3. Go to the shopping cart.
+		4. Click "Place Order" button.
+		5. Enter the invaild shipping address.
+		6. Enter your payment information.
+		7. Click on "Purchase" button.
+
+
+	Expected Result: Error messages are displayed next to the invalid fields. The user is unable to proceed with the checkout until valid shipping address details are entered.
+	----------------	
+	
+	Actual Result: The order is successfully placed, and a confirmation message is displayed. After clicking the "OK" button user is redirected to homepage.
+	--------------
+	
+	Pass / Fail: Fail
+	------------
+	
+Test Case 5: Valid Payment Details.
+------------
+
+	Test Case Description:  User enter valid payment during checkout.
+	----------------------
+	
+	Test Steps:
+	-----------
+		1. Add a product in shopping cart.
+		2. Click "OK" on the popup.
+		3. Go to the shopping cart.
+		4. Click "Place Order" button.
+		5. Enter the shipping address.
+		6. Enter vaild payment details.
+		7. Click on "Purchase" button.
+		8. Click on "OK" Button on the placed order popup to close it.
+
+		
+	Expected Result: The order should be successfully placed, and a confirmation message will be displayed. After clicking the "OK" button user should be redirected to homepage.
+	----------------
+	
+	Actual Result: The order is successfully placed, and a confirmation message is displayed. After clicking the "OK" button user is redirected to homepage.
+	--------------
+	
+	Pass / Fail: Pass
+	------------
+	
+Test Case 6: Invalid Payment Details.
+------------
+
+	Test Case Description:  User's payment method is declined during checkout due to invaild payment details.
+	----------------------
+	
+	Test Steps:
+	-----------
+		1. Add a product in shopping cart.
+		2. Click "OK" on the popup.
+		2. Go to the shopping cart.
+		3. Click "Place Order" button.
+		4. Enter the shipping address.
+		5. Enter invaild payment details such as expired card, invaild card number.
+		6. Click on "Purchase" button.
+
+
+	Expected Result: An error message is displayed, indicating that the payment was declined. The user is prompted to provide valid card details.
+	----------------	
+	
+	Actual Result: The order is successfully placed, and a confirmation message is displayed. After clicking the "OK" button user is redirected to homepage.
+	--------------
+	
+	Pass / Fail: Fail
+	------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
